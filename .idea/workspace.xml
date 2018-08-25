@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab026f78-57d6-4abf-a9d3-bdde6536a127" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coveralls.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.codeclimate.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/postgres-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/postgres-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/answers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models/answers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models/questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/config/postgres-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/config/postgres-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/database/models/answers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/database/models/answers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/database/models/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/database/models/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/database/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/database/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/database/models/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/database/models/questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/database/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/database/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/config/postgres-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/database/models/answers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/database/models/comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/database/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/database/models/questions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/database/models/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/package-lock.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coveralls.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coveralls.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coveralls.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -56,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            <state relative-caret-position="278">
+              <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -172,10 +160,10 @@
         <option value="$PROJECT_DIR$/database/models/users.js" />
         <option value="$PROJECT_DIR$/database/models/comments.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.codeclimate.yml.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/coveralls.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -259,12 +247,12 @@
       <workItem from="1534687083168" duration="12253000" />
       <workItem from="1534768894483" duration="893000" />
       <workItem from="1535114188639" duration="1534000" />
-      <workItem from="1535125705741" duration="8787000" />
+      <workItem from="1535125705741" duration="9442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31719000" />
+    <option name="totallyTimeSpent" value="32374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="0" />
@@ -277,7 +265,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36073825" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34228188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -581,6 +562,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
         </state>
       </provider>
     </entry>
