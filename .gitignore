@@ -62,3 +62,6 @@ typings/
 
 # idea workspace folder
 .idea
+
+#dist folder
+.server/dist

@@ -30,6 +30,9 @@ app.use(bodyParser.json());
   // // api router
   // app.use('/api', api({ config, db }));
 
+app.get('/api/v1', (req, res) => {
+  res.send({msg: 'welcome'});
+});
 
 app.get('/pool', (req, res) => {
   pool.connect( (err,client,done) => {
