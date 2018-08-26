@@ -8,14 +8,17 @@ var _express = require('express');
 
 var _express2 = _interopRequireDefault(_express);
 
+var _user = require('../../../controllers/user');
+
+var _user2 = _interopRequireDefault(_user);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // const router = express.Router();
 var router = _express2.default.Router();
 
-router.get('/');
-router.post('/');
-router.post('/login');
-router.get('/logout');
+router.post('/', _user2.default.create);
+router.post('/login', _user2.default.login);
+router.get('/logout', _user2.default.logout);
 
 exports.default = router;
