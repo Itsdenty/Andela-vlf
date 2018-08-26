@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import pg from 'pg';
 import dbConfig from './config/postgres-config';
+import routes from './routes';
 
 
 const app = express(),
@@ -20,6 +21,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
+//use the defined routes
+app.use('/', routes);
+
+
 
 // connect to db
 // initializeDb( db => {
@@ -30,9 +35,9 @@ app.use(bodyParser.json());
   // // api router
   // app.use('/api', api({ config, db }));
 
-app.get('/api/v1', (req, res) => {
-  res.send({msg: 'welcome'});
-});
+// app.get('/api/v1', (req, res) => {
+//   res.send({msg: 'welcome'});
+// });
 
 app.get('/pool', (req, res) => {
   pool.connect( (err,client,done) => {
